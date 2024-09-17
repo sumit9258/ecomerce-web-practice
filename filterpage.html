@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="filters">
+            <h2>Filter Products</h2>
+            <form>
+                <div class="filter-group">
+                    <label for="category">Category:</label>
+                    <select id="category" name="category">
+                        <option value="">All Categories</option>
+                        <option value="electronics">Electronics</option>
+                        <option value="fashion">Fashion</option>
+                        <option value="home">Home</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="price">Price Range:</label>
+                    <input type="range" id="price" name="price" min="0" max="1000" step="10">
+                    <span id="price-value">$0</span>
+                </div>
+
+                <div class="filter-group">
+                    <label>Rating:</label>
+                    <input type="radio" id="rating-5" name="rating" value="5">
+                    <label for="rating-5">5 Stars</label>
+                    <input type="radio" id="rating-4" name="rating" value="4">
+                    <label for="rating-4">4 Stars</label>
+                    <input type="radio" id="rating-3" name="rating" value="3">
+                    <label for="rating-3">3 Stars</label>
+                    <input type="radio" id="rating-2" name="rating" value="2">
+                    <label for="rating-2">2 Stars</label>
+                    <input type="radio" id="rating-1" name="rating" value="1">
+                    <label for="rating-1">1 Star</label>
+                </div>
+
+                <button type="submit">Apply Filters</button>
+            </form>
+        </aside>
+
+        <main class="products">
+            <h1>Product List</h1>
+            <!-- Example Product Items -->
+            <div class="product-item">
+                <h3>Product 1</h3>
+                <p>$299.99</p>
+            </div>
+            <div class="product-item">
+                <h3>Product 2</h3>
+                <p>$399.99</p>
+            </div>
+            <!-- Add more products here -->
+        </main>
+    </div>
+
+    <script>
+        // JavaScript to update price range display
+        const priceInput = document.getElementById('price');
+        const priceValue = document.getElementById('price-value');
+
+        priceInput.addEventListener('input', function() {
+            priceValue.textContent = `$${priceInput.value}`;
+        });
+    </script>
+</body>
+</html>
