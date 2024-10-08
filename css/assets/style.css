@@ -1,0 +1,158 @@
+
+
+
+pre{
+    background-color: chartreuse;
+    color: white;
+    font-size: x-large;
+    border-radius: 5px;
+}
+#a{
+    color: blue;
+
+    
+    font-size:x-large;
+}
+#b{
+    color: brown;
+    font-size: xx-large;
+border-radius: 10px;
+}
+.a{
+    color: orchid;
+}
+input[type="number"]{
+    color: blue;
+    background-color: brown;
+}
+input[type="text"]{
+    color: rgba(33, 168, 78, 0.651);
+    background-color: rgba(230, 230, 230, 0.678);
+}
+#web{
+    display: flex;
+    padding: 20px 0px;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-around;
+    list-style: none;
+    gap: 200px;
+
+}
+body{background-color: white;
+    /* font-family: "Sofia", sans-serif; */
+    /* line-height: 50px; */
+    text-transform:inherit;
+
+}
+
+
+[href="#"]{
+    color: springgreen;
+}
+
+.clss{
+    /* background-color: brown; */
+    text-decoration: none;
+}
+
+#web:visited{
+    background-color: brown;
+}
+/* #web:hover{
+color: rgb(24, 124, 212);
+} */
+/* #bb::first-line{
+
+} */
+
+#web li a{
+text-decoration: none;
+color: white;
+}
+
+#web li a:hover{
+    color: rgb(223, 44, 44);
+    font-size: 20px;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 65px;
+    background-color: rgb(0, 0, 0);
+
+}
+.logo img{
+width: 140px;
+height: auto;
+border-radius: 5px;
+align-items: center;
+
+}
+
+/* child slecter */
+#web > li{
+    background-color: rgb(221, 158, 21);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsl(39, 74%, 49%);
+}
+/* adjacent slector  */
+
+/* .pharagraph+ .heading{
+    background-color: aqua;
+} */
+
+/* general slector */
+
+/* .pharagraph ~ h3{
+    background-color: blue;
+} */
+
+ /* group slector */ */
+.pharagraph,.heading,h3{ 
+background-color: cadetblue;
+/* line-height: 10px; */
+} 
+ /* h3{
+background-color: rgb(55, 110, 130);
+color: #00ff00;
+color: #ff0000;
+color: #0000ff;
+ } */
+ h3{
+     background-color: rgba(223, 31, 207, 0.678);
+    color: rgba(21, 230, 13, 0.5); 
+background-color: rgb(55, 0, 255,0.9);
+color: rgba(200,100 ,100);
+/* font-family: "Sofia", sans-serif; */
+
+ }
+.first{
+display: inline;
+padding: 50px;
+}
+.second{
+    display: block;
+}
+.third{
+    display:inline-block ;
+    /* padding: 50px; */
+}
+.four{
+    display: none;
+}
+.list{
+    display: flex; 
+    /* gap: 20px; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    /* justify-content:; */
+     flex-direction:column;
+}
+
+h1{
+    position: sticky;
+    top: 0px;
+}

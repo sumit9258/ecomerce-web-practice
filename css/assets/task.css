@@ -1,0 +1,302 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+   font-size: large;
+    height: 50px;
+    align-items: center;
+}
+ul{
+    display: flex;
+margin-left: 300px;
+    gap: 80px;
+list-style: none;
+}
+.logo{
+/* margin-right: 50px; */
+padding-left: 50px;
+align-items: center;
+
+}
+.heading{
+margin: 50px 0px 0px 60px;
+font-size:large;
+display: flex;
+
+}
+
+ .more{
+padding: 10px;
+background-color: #FE5B26;
+border: none;
+border-radius: 10px;
+height: 50px;
+
+ }
+.Cloth{
+margin-left: 200px;
+margin-top: 20px;
+margin-bottom: 40px;
+
+}
+.text{
+    margin-top: 50px;
+margin-left: 250px;
+    text-decoration: underline;
+    position: relative;
+    
+}
+.text h3{
+    position: absolute;
+    /* bottom: 0px; */
+    top: 70px;
+    font-size: x-large;
+    left: -20px;
+    width: 100px;
+    height: 3  0px;
+    color: rgb(73, 180, 46);
+    transform: rotate(-45deg);
+    background-color: black;
+ }
+
+
+.maintext{
+margin-bottom: 100px;
+    
+}
+h1{
+height: 100px;
+}
+.btn{
+margin-top: 150px;
+margin-right: 100px;
+}
+.container2{
+    margin-top: 20px;
+border: 1px solid black;
+display: flex;
+text-align: center;
+align-items: center;
+height: 50px;
+width: 1100px;
+margin-left: 90px;
+}
+.unlist2{
+margin-left: 40px;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.cards{
+display: flex;
+margin-left: 10px;
+justify-content: space-around;
+margin-bottom: 40px;
+}
+.card{
+    /* margin-left: 80px; */
+    margin-top: 50px;
+    /* box-shadow: ; */
+    /* box-shadow: 0px 5px 5px 6px rgba(0,0 ,0 ,0.5); */
+
+}
+.card1{
+
+
+}
+.card2{
+    margin-top: 140px;
+    box-shadow: 0px 5px 5px 6px rgba(0,0 ,0 ,0.5);
+
+}
+.card3{
+    margin-top: 140px;
+    box-shadow: 0px 5px 5px 6px rgba(0,0 ,0 ,0.5);
+
+}
+.second{
+    margin-top: 40px;
+}
+.footer{
+display: flex;
+justify-content:space-between;
+margin-bottom: 50px;
+color: white;
+background-color: black;
+height: 400px;
+
+}
+.unlist3{
+    color: white;
+    margin-top: 40px;
+display: flex;
+gap: 100px;
+align-items: center;
+margin-right: 50px;
+}
+.ff{
+    padding-left: 800px;
+    /* justify-content: end; */
+    padding-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+}
+.color{
+    color: white;
+}
+.f{
+margin-left: 50px;
+display: flex;
+padding-top: 40px;
+}
+.nav-list3 li a{
+color: white;
+
+}
+.ullist3{
+    gap: 100px;
+
+}
+.footer2{
+display: flex;
+margin-top: 50px;
+justify-content: space-between;
+font-size: large;
+}
+
+.page2{
+display: flex;
+/* justify-content: space-around; */
+}
+
+.about{
+text-align: center;
+margin-top: 90px;
+font-weight: 800;
+margin-left: 90px;
+}
+.h1{
+    font-size: 50px;
+}
+.p{
+padding-top: 90px;
+}
+.left{
+margin-left: 30px;
+box-shadow: 0px 5px 5px 6px rgba(0,0 ,0 ,0.5);
+margin-bottom: 20px;
+
+}
+.right{
+    margin-left: 60px;
+    box-shadow: 0px 5px 5px 6px rgba(0,0 ,0 ,0.5);
+margin-bottom: 20px;
+}
+.now{
+background-color: #FE5B26;
+padding: 10px 20px;
+border: none;
+border-radius: 10px;
+/* font-size: large; */
+font-weight: 500;
+color: white;
+margin-top: 20px;
+}
+.page3{
+display: flex;
+justify-content: space-around;
+
+}
+.cardrow{
+    margin-top: 30px;
+    box-shadow: 0px 5px 5px 6px rgba(0,0 ,0 ,0.5);
+}
+.cardrow:hover{
+transform: scale(1.05);
+
+}
+.tranding{
+padding-left: 25px;
+padding-top: 50px;
+}
+.view{
+text-align: end;
+padding-right: 20px;
+text-decoration: underline;
+font-weight: 600;
+font-size: 18px;
+}
+.hr{
+    padding-top: 80px;
+    padding-left: 40px;
+line-height: 30px;
+width: 300px;
+font-size: large;
+}
+.page4{
+    display: flex;
+}
+.colom{
+    margin-left: 100px;
+}
+.exploresilk{
+padding-left: 100px;
+margin-top: 50px;
+}
+.silkbottom{
+font-size: x-large;
+
+}
+.silk{
+padding-bottom: 20px;
+font-size: 40px;
+}
+.silkbtn{
+    margin-top: 20px;
+padding: 15px 20px;
+background-color:#FE5B26;
+color: white;
+border: none;
+border-radius: 10px;
+}
+#center{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.page5{
+display: flex;
+justify-content: space-around;
+margin-bottom: 40px;
+}
+.four{
+    margin-top: 30px;
+    box-shadow: 0px 5px 10px 10px rgba(0,0 ,0 ,0.4);
+}
+.four:hover{
+transform: scale(1.05);
+
+}
+.instagram{
+    font-size: 40px;
+    margin-left: 20px;
+ }
+ .follow{
+    display: flex;
+   align-items: center;
+ padding-left: 700px;
+   
+ }
+ .followus{
+display: flex;
+margin-top: 90px;
+
+ }
